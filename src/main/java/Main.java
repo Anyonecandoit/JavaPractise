@@ -3,14 +3,39 @@ public class Main {
 
 	public static void main(String[] args) {
 	
+	/**	Car c = new Car();
 		
-		Human human = new Human("Kranthi",65) ;
-		Human human2 = new Human("bob",65) ;
+		bicycle b = new bicycle();
+		b.start();
 		
-		human.drink();
-		human2.agefilter();
+		System.out.println(b.pedal);
+		System.out.println(c.speed);
+		
+		c.moved();
+		
+		**/
+		
+		
+	/***	Vechile v = new Vechile("kranthi", 10 , 5, 3);
+		
+		
+		
+		System.out.println(v.pedal);
+		
 	}
+**/
+		
+		
 
-
+		
+	/**	bicycle b = new bicycle();
+		b.stopped();
+**/
+		
+		
+		Vechile v = new Vechile("bob", 3 ,4);
+		
+		System.out.println(v.getCount());
 	
-}
+		
+} }

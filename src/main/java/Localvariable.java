@@ -2,19 +2,19 @@ import java.util.Random;
 
 public class Localvariable {
 	
-	
-	
+	Random random ;
+	int number ;
 	void local(){
 		
-		Random random = new Random() ;
+	random = new Random() ;
 			int number = 10 ;
-			global(random ,number);
+			//global(random ,number);
 			
 				
 	}
 	
 	
-	void global(Random random ,int number) {
+	void global() {
 		
 	
 	number =	random.nextInt(4)+1;
